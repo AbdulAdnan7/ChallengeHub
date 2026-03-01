@@ -1,3 +1,3328 @@
-this is the readme of the project: - 
+# 📚 **COMPREHENSIVE FULL STACK INTERVIEW PREPARATION**
+## **100+ Questions PER Topic | 1000+ Total Questions**
 
-1* Installed express, mongoose, dotenv, cors for the backend
+---
+
+# **TABLE OF CONTENTS**
+
+1. [JavaScript Core (150+ Questions)](#javascript-core)
+2. [Node.js (120+ Questions)](#nodejs)
+3. [Express.js (110+ Questions)](#expressjs)
+4. [REST APIs & GraphQL (100+ Questions)](#rest-apis--graphql)
+5. [MongoDB & Database Design (130+ Questions)](#mongodb--database-design)
+6. [React.js (180+ Questions)](#reactjs)
+7. [System Design (140+ Questions)](#system-design)
+8. [Security (100+ Questions)](#security)
+9. [Testing (100+ Questions)](#testing)
+10. [DevOps & Deployment (100+ Questions)](#devops--deployment)
+11. [Data Structures & Algorithms (150+ Questions)](#data-structures--algorithms)
+12. [Behavioral & HR (100+ Questions)](#behavioral--hr)
+
+---
+
+# **JAVASCRIPT CORE** (150+ Questions)
+
+## **Variables & Data Types** (20 Questions)
+
+1. What's the difference between `var`, `let`, and `const`? Give 5 examples where each is appropriate.
+
+2. Explain temporal dead zone with practical examples.
+
+3. What are the 7 falsy values in JavaScript? Demonstrate each.
+
+4. How does JavaScript handle type coercion? Give 10 examples of implicit coercion.
+
+5. What's the difference between `==` and `===`? Provide 15 comparison examples showing the difference.
+
+6. Explain primitive vs reference types with memory diagram explanation.
+
+7. How are objects stored in memory? Explain with multiple nested objects.
+
+8. What is the difference between `null` and `undefined`? Provide 5 scenarios for each.
+
+9. Explain the `typeof` operator limitations. Give examples where it returns unexpected results.
+
+10. What is the difference between `undefined` and "not defined"?
+
+11. How do you check if a variable is an array? Provide 5 different methods.
+
+12. Explain the `NaN` property. How do you check if a value is NaN?
+
+13. What are the different ways to create objects in JavaScript? (8+ methods with examples)
+
+14. Explain property descriptors. How do you make a property read-only?
+
+15. What are symbols? Provide 5 practical use cases.
+
+16. Explain the difference between shallow copy and deep copy. Implement both.
+
+17. How does JavaScript handle big numbers? Explain BigInt with examples.
+
+18. What are wrapper objects? Explain with String, Number, Boolean examples.
+
+19. Explain the concept of boxing and unboxing in JavaScript.
+
+20. How do you handle floating-point precision issues? Provide 5 solutions.
+
+## **Functions & Scope** (25 Questions)
+
+21. What are the 5 different ways to declare functions in JavaScript?
+
+22. Explain function declaration vs function expression with hoisting implications.
+
+23. What are arrow functions? Give 10 scenarios where they're better and 5 where they're worse.
+
+24. Explain lexical scoping with nested function examples.
+
+25. What is closure? Create 7 real-world examples (debounce, throttle, private variables, etc.)
+
+26. How do closures help in data encapsulation? Create a bank account example.
+
+27. Explain the concept of IIFE. Provide 5 use cases with code.
+
+28. What are higher-order functions? Implement map, filter, reduce from scratch.
+
+29. Explain call, apply, and bind. Create 5 scenarios for each.
+
+30. What is function currying? Implement curry function and show 5 examples.
+
+31. Explain partial application vs currying with examples.
+
+32. What is function composition? Create a compose function and demonstrate.
+
+33. Explain recursion with 10 examples (factorial, fibonacci, deep clone, etc.)
+
+34. What are generator functions? Create 5 practical use cases.
+
+35. Explain the difference between parameters and arguments with rest parameters.
+
+36. What are default parameters? Show complex examples with objects and functions.
+
+37. How does the `arguments` object work in regular vs arrow functions?
+
+38. Explain tail call optimization with examples.
+
+39. What are getters and setters? Create 5 real-world examples.
+
+40. Explain the concept of pure functions with 10 examples and counter-examples.
+
+41. What is function memoization? Implement and show performance improvement.
+
+42. Explain the difference between deep and shallow comparison in functions.
+
+43. What are thunk functions? Provide 5 examples.
+
+44. Explain the concept of lazy evaluation with generators.
+
+45. How do you handle function overloading in JavaScript?
+
+## **Objects & Prototypes** (20 Questions)
+
+46. Explain prototypal inheritance with detailed examples.
+
+47. What is the prototype chain? Visualize with multiple levels of inheritance.
+
+48. How does `__proto__` differ from `prototype` property?
+
+49. Explain the difference between classical and prototypal inheritance.
+
+50. What are the different patterns for object creation? (Factory, Constructor, Prototype)
+
+51. How does the `new` keyword work? Write a polyfill for `new`.
+
+52. Explain the `Object.create()` method with 5 examples.
+
+53. What are the different ways to set prototype? (__proto__, Object.setPrototypeOf, etc.)
+
+54. Explain method overriding in prototype chain.
+
+55. How do you create "classes" before ES6? Show multiple patterns.
+
+56. Explain the ES6 class syntax. How does it differ from constructor functions?
+
+57. What are static methods in classes? Provide 5 use cases.
+
+58. Explain private fields in classes (# syntax) with examples.
+
+59. What are mixins? Implement multiple inheritance using mixins.
+
+60. Explain the `instanceof` operator. How does it work with prototype chain?
+
+61. What is the difference between `hasOwnProperty` and `in` operator?
+
+62. How do you make an object immutable? (Object.freeze, Object.seal, Object.preventExtensions)
+
+63. Explain property enumeration order in objects.
+
+64. What are the different ways to iterate over object properties? (7+ methods)
+
+65. Explain the `Proxy` object with 10 practical use cases.
+
+## **Arrays & Iteration** (20 Questions)
+
+66. What are the 20+ array methods? Categorize them by mutating vs non-mutating.
+
+67. Implement map, filter, reduce from scratch with error handling.
+
+68. Explain the difference between forEach, map, and for...of with performance comparisons.
+
+69. What are sparse arrays? How do they behave with different iteration methods?
+
+70. How do you flatten a nested array? Provide 5 different methods.
+
+71. Explain array destructuring with 10 complex examples.
+
+72. What is the spread operator? Provide 15 use cases with arrays and objects.
+
+73. How do you remove duplicates from an array? Provide 7 different methods.
+
+74. Explain the `reduce` method with 10 advanced examples.
+
+75. What are typed arrays? When would you use them?
+
+76. How do you sort arrays correctly? Handle different data types.
+
+77. Explain the `splice` vs `slice` with 10 examples each.
+
+78. What are array-like objects? Convert them to arrays (5 methods).
+
+79. How do you find intersection, union, and difference of arrays?
+
+80. Explain the `Array.from()` method with 10 transformation examples.
+
+81. What are the performance implications of different array operations?
+
+82. How do you implement a custom iterable? Provide 5 examples.
+
+83. Explain the difference between for...in and for...of with arrays.
+
+84. What are the new array methods in ES2023? (toSorted, toReversed, etc.)
+
+85. How do you handle large arrays without blocking the event loop?
+
+## **Promises & Async** (25 Questions)
+
+86. Explain the event loop in detail with microtasks and macrotasks.
+
+87. What are promises? Implement a Promise from scratch.
+
+88. Explain promise chaining with error handling patterns.
+
+89. What are the differences between Promise.all, Promise.allSettled, Promise.race, Promise.any?
+
+90. Implement Promise.all, Promise.race, Promise.any from scratch.
+
+91. How do you cancel a promise? Implement cancellable promises.
+
+92. Explain async/await with error handling patterns (try/catch, .catch, etc.)
+
+93. What are the pitfalls of async/await? Provide 5 common mistakes.
+
+94. How do you run promises in sequence? Provide 5 methods.
+
+95. How do you limit concurrency of promises? Implement a pool.
+
+96. Explain promise composition patterns with complex examples.
+
+97. What are the different states of a promise? How do you inspect them?
+
+98. How do you convert callbacks to promises? (promisify implementation)
+
+99. Explain the `finally` block in promises and async/await.
+
+100. What are the memory implications of unresolved promises?
+
+101. How do you handle timeouts with promises? Implement race with timeout.
+
+102. Explain the difference between microtasks and macrotasks with setTimeout, setImmediate, nextTick.
+
+103. What are async generators? Provide 5 use cases.
+
+104. How do you implement retry logic with promises?
+
+105. Explain the concept of "callback hell" and how promises solve it.
+
+106. What are the performance considerations with multiple promises?
+
+107. How do you debug promise chains? What tools help?
+
+108. Explain the event loop phases in Node.js vs browser.
+
+109. What are Web Workers? How do they differ from the main thread?
+
+110. How do you implement a promise-based rate limiter?
+
+## **ES6+ Features** (20 Questions)
+
+111. What are the 20+ features introduced in ES6?
+
+112. Explain template literals with tagged template examples.
+
+113. What are modules? Compare CommonJS vs ES6 modules.
+
+114. Explain destructuring with 15 complex examples (nested, defaults, renaming).
+
+115. What are the new data structures? (Map, Set, WeakMap, WeakSet) When to use each?
+
+116. Compare Map vs Object with 10 differences and use cases.
+
+117. What are the new string methods? (startsWith, endsWith, includes, repeat, padStart, etc.)
+
+118. Explain the `for...of` loop with custom iterators.
+
+119. What are the new number methods? (Number.isNaN, Number.isFinite, etc.)
+
+120. Explain the `Math` object extensions (trunc, sign, cbrt, etc.)
+
+121. What are the internationalization APIs? (Intl.DateTimeFormat, Intl.NumberFormat)
+
+122. Explain `Object.assign` vs spread operator with deep merge implementation.
+
+123. What are the new array methods? (find, findIndex, includes, flat, flatMap)
+
+124. Explain optional chaining (?.) with 10 examples.
+
+125. What is nullish coalescing (??) vs OR (||)? Provide comparisons.
+
+126. Explain logical assignment operators (&&=, ||=, ??=) with examples.
+
+127. What are private class fields and methods?
+
+128. Explain top-level await with use cases.
+
+129. What are the new RegExp features? (dotAll, named groups, lookbehind)
+
+130. How do you use dynamic import()? Provide code splitting examples.
+
+## **Error Handling & Debugging** (10 Questions)
+
+131. What are the different types of errors in JavaScript? (Syntax, Reference, Type, etc.)
+
+132. How do you create custom error classes? Extend Error.
+
+133. Explain try-catch-finally with nested examples.
+
+134. What is the difference between `throw` and `throw new Error()`?
+
+135. How do you handle asynchronous errors? (callbacks, promises, async/await)
+
+136. What are the debugging tools and techniques you use?
+
+137. Explain source maps and their importance.
+
+138. How do you measure performance? (console.time, performance API)
+
+139. What are the different console methods? (10+ methods with use cases)
+
+140. How do you handle uncaught exceptions and unhandled rejections?
+
+## **Browser APIs & DOM** (10 Questions)
+
+141. Explain the DOM tree and how JavaScript interacts with it.
+
+142. What are the different ways to select DOM elements? (8+ methods)
+
+143. Explain event propagation (capturing, bubbling, delegation).
+
+144. How do you create custom events? Provide 5 examples.
+
+145. What are the different storage mechanisms? (localStorage, sessionStorage, cookies, IndexedDB)
+
+146. Explain the Fetch API with request and response interception.
+
+147. What are WebSockets? Implement a simple chat.
+
+148. How do you handle drag and drop? Provide implementation.
+
+149. Explain the Intersection Observer with lazy loading implementation.
+
+150. What are Service Workers? Build an offline-first application.
+
+---
+
+# **NODE.JS** (120+ Questions)
+
+## **Core Concepts** (20 Questions)
+
+1. What is Node.js? How does it differ from browser JavaScript?
+
+2. Explain the Node.js architecture with event loop diagram.
+
+3. What is the event loop? Explain all 6 phases in detail.
+
+4. How does libuv work? What role does it play?
+
+5. Explain the difference between `process.nextTick()` and `setImmediate()` with examples.
+
+6. What are the 5 ways to run asynchronous code in Node.js?
+
+7. Explain the Node.js module system. How does `require()` work?
+
+8. What is the module wrapper function? Show what code gets wrapped.
+
+9. Explain the difference between `module.exports` and `exports`.
+
+10. How does Node.js resolve modules? (Core, File, node_modules)
+
+11. What is the event emitter pattern? Implement a custom EventEmitter.
+
+12. Explain the buffer class. When would you use it?
+
+13. What are the different global objects in Node.js?
+
+14. How does the `process` object work? List 20 useful properties/methods.
+
+15. Explain the `__dirname` and `__filename` vs `process.cwd()`.
+
+16. What are the environment variables in Node.js? How do you access them?
+
+17. Explain the `path` module with 15 methods.
+
+18. What is the `os` module? Get system information using it.
+
+19. How do you handle command-line arguments in Node.js?
+
+20. Explain the `util` module with 10 useful functions.
+
+## **File System** (15 Questions)
+
+21. Explain the `fs` module. Difference between sync and async methods.
+
+22. How do you read a file line by line? Provide 3 methods.
+
+23. What are file descriptors? When would you use them?
+
+24. Explain streams with readable, writable, and transform examples.
+
+25. How do you create a read stream and write stream for large files?
+
+26. What is backpressure in streams? How do you handle it?
+
+27. Explain the `pipe()` method with multiple examples.
+
+28. How do you watch files for changes? Implement a file watcher.
+
+29. What are the different file modes and permissions?
+
+30. How do you work with directories? (create, read, delete recursively)
+
+31. Explain the difference between `rename()` and `link()`.
+
+32. What are temporary files? How do you create and use them?
+
+33. How do you handle file uploads? Implement with streams.
+
+34. Explain the `fs.promises` API with examples.
+
+35. How do you work with symbolic links?
+
+## **Streams & Buffers** (15 Questions)
+
+36. What are the 4 types of streams in Node.js?
+
+37. Explain readable streams in detail with modes (flowing, paused).
+
+38. What are writable streams? Implement custom writable.
+
+39. Explain transform streams with encryption/compression examples.
+
+40. What are duplex streams? Implement a network socket example.
+
+41. How do you handle stream errors? Best practices.
+
+42. Explain the `pipe()` and `pipeline()` methods. What's the difference?
+
+43. What is the `finished()` function? When would you use it?
+
+44. How do you create a custom readable stream?
+
+45. Explain object mode in streams with examples.
+
+46. What are the memory implications of streams vs buffers?
+
+47. How do you combine multiple streams? (multiplexing/demultiplexing)
+
+48. Explain backpressure with visual diagram and solution.
+
+49. What are the performance benefits of using streams?
+
+50. How do you implement stream throttling/rate limiting?
+
+## **HTTP & Networking** (15 Questions)
+
+51. How do you create an HTTP server in Node.js?
+
+52. Explain the `http` module vs `https` module.
+
+53. What are the different parts of a URL? Parse using `url` module.
+
+54. How do you make HTTP requests in Node.js? (http.get, axios, node-fetch)
+
+55. Explain the request and response objects with all properties.
+
+56. How do you set and read HTTP headers?
+
+57. What are cookies? How do you parse and set them?
+
+58. Explain CORS in Node.js. How do you implement it?
+
+59. How do you handle file uploads via HTTP? (multipart/form-data)
+
+60. What is the `querystring` module? Parse and stringify.
+
+61. How do you implement HTTP/2 in Node.js?
+
+62. Explain WebSockets in Node.js. Implement a simple chat.
+
+63. What are server-sent events (SSE)? When to use them?
+
+64. How do you implement HTTPS with SSL certificates?
+
+65. Explain HTTP status codes. Group by categories with examples.
+
+## **Process & OS** (10 Questions)
+
+66. How do you spawn child processes? (exec, spawn, fork)
+
+67. Explain the difference between `exec()` and `spawn()`.
+
+68. What is the `cluster` module? How do you scale Node.js applications?
+
+69. How do you handle process signals? (SIGINT, SIGTERM)
+
+70. Explain process exit codes. What are the standard ones?
+
+71. How do you monitor memory usage in Node.js?
+
+72. What are CPU profiling and flame graphs?
+
+73. How do you handle uncaught exceptions and unhandled rejections?
+
+74. What is the `worker_threads` module? When to use it?
+
+75. Explain the difference between processes and threads in Node.js.
+
+## **NPM & Package Management** (10 Questions)
+
+76. What is npm? How does it differ from yarn and pnpm?
+
+77. Explain `package.json` in detail. What are all the fields?
+
+78. What is the difference between dependencies, devDependencies, peerDependencies?
+
+79. How does semantic versioning work? (^, ~, *, >, <)
+
+80. What is `package-lock.json`? Why is it important?
+
+81. How do you publish an npm package? Step by step.
+
+82. What are npx and its use cases?
+
+83. How do you manage multiple Node versions? (nvm, n)
+
+84. What are the security best practices for npm?
+
+85. How do you create and run npm scripts?
+
+## **Performance & Optimization** (15 Questions)
+
+86. How do you measure performance in Node.js?
+
+87. What is the event loop lag? How do you monitor it?
+
+88. Explain memory leaks in Node.js. How do you detect and fix them?
+
+89. What are the common performance bottlenecks?
+
+90. How do you optimize database queries in Node.js?
+
+91. Explain caching strategies with Redis.
+
+92. What is the `perf_hooks` module? How do you use it?
+
+93. How do you implement request throttling and rate limiting?
+
+94. What are the best practices for error handling?
+
+95. How do you optimize CPU-intensive tasks?
+
+96. Explain clustering and load balancing.
+
+97. What is the `async_hooks` module? Use cases?
+
+98. How do you profile CPU and memory?
+
+99. What are the best practices for garbage collection?
+
+100. How do you optimize for high traffic applications?
+
+## **Debugging & Testing** (10 Questions)
+
+101. How do you debug Node.js applications? (inspector, Chrome DevTools)
+
+102. What are the different logging libraries? (winston, pino, morgan)
+
+103. How do you write unit tests for Node.js? (Jest, Mocha)
+
+104. Explain integration testing with supertest.
+
+105. How do you mock dependencies in tests?
+
+106. What is test coverage? How do you measure it?
+
+107. How do you test file system operations?
+
+108. Explain end-to-end testing for Node.js APIs.
+
+109. What are the debugging tools in VS Code?
+
+110. How do you handle environment-specific configurations?
+
+## **Advanced Topics** (10 Questions)
+
+111. What are addons? How do you write C++ addons?
+
+112. Explain the `vm` module with sandboxing examples.
+
+113. What are the security best practices for Node.js?
+
+114. How do you implement GraphQL in Node.js?
+
+115. Explain microservices architecture with Node.js.
+
+116. What are serverless functions with Node.js?
+
+117. How do you implement WebAssembly in Node.js?
+
+118. Explain the `diagnostics_channel` module.
+
+119. What are the new features in Node.js 20/21?
+
+120. How do you contribute to Node.js core?
+
+---
+
+# **EXPRESS.JS** (110+ Questions)
+
+## **Fundamentals** (20 Questions)
+
+1. What is Express.js? How does it differ from vanilla Node.js HTTP server?
+
+2. Explain the middleware concept in Express. Draw the request-response cycle.
+
+3. What are the different types of middleware? (Application, Router, Error-handling, Built-in, Third-party)
+
+4. How do you create a basic Express server? Show the minimal code.
+
+5. Explain the `app.use()` vs `app.METHOD()` functions.
+
+6. What is the `next()` function? What happens if you don't call it?
+
+7. How do you serve static files in Express?
+
+8. Explain routing in Express with parameters, query strings, and wildcards.
+
+9. What are route handlers? How many can you chain?
+
+10. How do you get data from request? (req.params, req.query, req.body)
+
+11. Explain the response methods (res.send, res.json, res.render, res.redirect)
+
+12. What is the difference between `res.end()` and `res.send()`?
+
+13. How do you set HTTP headers in Express?
+
+14. Explain the `express.Router` class. When would you use it?
+
+15. How do you structure a large Express application? Show folder structure.
+
+16. What is the `app.locals` and `res.locals` objects?
+
+17. How do you handle 404 errors in Express?
+
+18. Explain template engines in Express (EJS, Pug, Handlebars)
+
+19. How do you enable CORS in Express?
+
+20. What is the `body-parser` middleware? Is it still needed?
+
+## **Middleware** (20 Questions)
+
+21. What is middleware? Write a simple logging middleware.
+
+22. How do you create application-level middleware?
+
+23. Explain router-level middleware with examples.
+
+24. What is error-handling middleware? How does it differ from regular middleware?
+
+25. How do you create third-party middleware?
+
+26. What is the order of middleware execution?
+
+27. How do you pass data between middleware?
+
+28. Explain middleware chaining with multiple functions.
+
+29. What are the built-in middleware functions in Express?
+
+30. How do you create conditional middleware?
+
+31. Explain the `cookie-parser` middleware with examples.
+
+32. What is `express-session`? How does it work?
+
+33. How do you implement authentication middleware?
+
+34. Explain rate limiting middleware with implementation.
+
+35. What is compression middleware? When to use it?
+
+36. How do you create validation middleware?
+
+37. Explain file upload middleware (multer).
+
+38. What is Helmet.js? Why is it important?
+
+39. How do you create async middleware? Handle errors.
+
+40. Explain the `cors` middleware options in detail.
+
+## **Routing** (15 Questions)
+
+41. What are the different HTTP methods in Express routing?
+
+42. Explain route parameters with examples and constraints.
+
+43. What are query parameters? How do you access them?
+
+44. How do you handle route wildcards and regex patterns?
+
+45. Explain route arrays and multiple handler functions.
+
+46. What is `app.route()`? When would you use it?
+
+47. How do you modularize routes with Express.Router?
+
+48. Explain nested routing with examples.
+
+49. What are route prefixes? How do you use them?
+
+50. How do you implement route versioning?
+
+51. Explain dynamic routing with multiple parameters.
+
+52. What is the `next('route')` function? Use cases.
+
+53. How do you handle optional route parameters?
+
+54. Explain route debugging in Express.
+
+55. How do you document Express routes? (Swagger/OpenAPI)
+
+## **Error Handling** (10 Questions)
+
+56. What are the different ways to handle errors in Express?
+
+57. How do you create a global error handler?
+
+58. Explain synchronous vs asynchronous error handling.
+
+59. How do you handle 404 errors gracefully?
+
+60. What is the default error handler in Express?
+
+61. How do you create custom error classes for Express?
+
+62. Explain error handling in async routes.
+
+63. What are the best practices for error responses?
+
+64. How do you log errors in production?
+
+65. Explain error handling middleware placement and order.
+
+## **Security** (10 Questions)
+
+66. What are the security best practices for Express?
+
+67. How do you prevent SQL injection in Express?
+
+68. Explain XSS prevention in Express.
+
+69. What is CSRF? How do you prevent it?
+
+70. How do you implement rate limiting for security?
+
+71. Explain Helmet.js and its 11 middleware functions.
+
+72. What are security headers? How do you set them?
+
+73. How do you validate and sanitize user input?
+
+74. Explain secure session configuration.
+
+75. What is content security policy (CSP)? How to implement?
+
+## **Database Integration** (10 Questions)
+
+76. How do you connect MongoDB with Express?
+
+77. Explain Mongoose integration with schemas and models.
+
+78. How do you handle database connections and disconnections?
+
+79. What are the best practices for database queries in routes?
+
+80. Explain connection pooling in Express.
+
+81. How do you implement transactions in Express?
+
+82. What are the ORM/ODM options for Express?
+
+83. How do you handle database errors gracefully?
+
+84. Explain database indexing strategies with Express.
+
+85. How do you implement caching with Redis in Express?
+
+## **Performance & Optimization** (10 Questions)
+
+86. What are the performance bottlenecks in Express?
+
+87. How do you enable compression in Express?
+
+88. Explain clustering in Express applications.
+
+89. What is response time? How do you optimize it?
+
+90. How do you implement caching strategies?
+
+91. Explain database query optimization in routes.
+
+92. What is the `response-time` middleware?
+
+93. How do you handle static file optimization?
+
+94. Explain load balancing with Express.
+
+95. What are the memory leak prevention strategies?
+
+## **Testing & Debugging** (10 Questions)
+
+96. How do you test Express routes? (Supertest, Jest)
+
+97. Explain integration testing with database.
+
+98. How do you mock middleware in tests?
+
+99. What are the debugging tools for Express?
+
+100. How do you log requests and responses?
+
+101. Explain performance testing with k6/Artillery.
+
+102. How do you test error handling middleware?
+
+103. What are the testing strategies for authentication routes?
+
+104. How do you measure code coverage?
+
+105. Explain end-to-end testing with Cypress for Express APIs.
+
+## **Advanced Topics** (5 Questions)
+
+106. How do you implement WebSockets with Express?
+
+107. Explain GraphQL with Express (Apollo Server).
+
+108. What are serverless Express applications?
+
+109. How do you implement microservices with Express?
+
+110. Explain the latest features in Express 5.x.
+
+---
+
+# **REST APIs & GRAPHQL** (100+ Questions)
+
+## **REST Fundamentals** (20 Questions)
+
+1. What is REST? Explain the 6 constraints of REST architecture.
+
+2. What are the differences between REST and SOAP?
+
+3. Explain HTTP methods with their properties (safe, idempotent, cacheable)
+
+4. What are the differences between PUT and PATCH?
+
+5. Explain HTTP status codes with categories (1xx, 2xx, 3xx, 4xx, 5xx)
+
+6. What is the difference between 401 Unauthorized and 403 Forbidden?
+
+7. Explain RESTful resource naming conventions.
+
+8. What are the best practices for API versioning?
+
+9. How do you design nested resources? (/users/123/posts)
+
+10. What are query parameters vs path parameters? When to use each?
+
+11. Explain filtering, sorting, pagination, and field selection in REST APIs.
+
+12. What are the common pagination strategies? (offset, cursor, page-based)
+
+13. How do you implement HATEOAS? When is it useful?
+
+14. What are idempotent methods? Why are they important?
+
+15. Explain content negotiation in REST APIs.
+
+16. What are the different authentication methods for REST APIs?
+
+17. How do you handle file uploads in REST APIs?
+
+18. What are the best practices for API response structure?
+
+19. Explain error handling and error response format.
+
+20. What is OpenAPI/Swagger? How do you document APIs?
+
+## **API Design** (15 Questions)
+
+21. How do you design an API for a blogging platform?
+
+22. Design an e-commerce API with products, orders, users.
+
+23. How would you design a social media API?
+
+24. Design a flight booking system API.
+
+25. What would a payment processing API look like?
+
+26. Design a real-time chat API.
+
+27. How do you design a file storage API (like Dropbox)?
+
+28. Design an API for a task management app.
+
+29. How would you design a notification system API?
+
+30. Design a streaming service API (like Netflix).
+
+31. What does a ride-sharing API look like? (Uber/Lyft)
+
+32. Design a food delivery API.
+
+33. How would you design a job board API?
+
+34. Design a hotel booking API with availability.
+
+35. What does a banking API look like?
+
+## **API Security** (15 Questions)
+
+36. What are the security best practices for REST APIs?
+
+37. Explain API keys vs JWT vs OAuth2.
+
+38. How does OAuth2 work? Explain all grant types.
+
+39. What is JWT? How does it work? Structure of JWT.
+
+40. How do you securely store JWT on client side?
+
+41. Explain refresh tokens and access tokens.
+
+42. What is CORS? How does it work with APIs?
+
+43. How do you prevent rate limiting bypass?
+
+44. Explain API throttling and quota management.
+
+45. What are the common API attacks? (Injection, DDoS, MITM)
+
+46. How do you validate and sanitize API inputs?
+
+47. Explain HTTPS and TLS for APIs.
+
+48. What is API gateway? Security benefits?
+
+49. How do you handle API key rotation?
+
+50. Explain IP whitelisting and blacklisting.
+
+## **GraphQL** (20 Questions)
+
+51. What is GraphQL? How does it differ from REST?
+
+52. Explain the core concepts of GraphQL (Schema, Queries, Mutations, Subscriptions)
+
+53. What are the advantages and disadvantages of GraphQL vs REST?
+
+54. Explain GraphQL types (Scalar, Object, Query, Mutation, Input, Enum, Union, Interface)
+
+55. How do you define a GraphQL schema? Write examples.
+
+56. What are resolvers? How do they work?
+
+57. Explain the resolver function arguments (parent, args, context, info)
+
+58. What is the N+1 problem in GraphQL? How do you solve it? (DataLoader)
+
+59. How do you handle authentication in GraphQL?
+
+60. Explain GraphQL subscriptions with WebSockets.
+
+61. What are fragments in GraphQL? Why use them?
+
+62. How do you implement pagination in GraphQL?
+
+63. Explain the difference between queries and mutations.
+
+64. What are input types? When to use them?
+
+65. How do you handle file uploads in GraphQL?
+
+66. Explain GraphQL directives with examples.
+
+67. What is Apollo Server? How do you set it up?
+
+68. How do you mock GraphQL API for testing?
+
+69. Explain GraphQL federation and schema stitching.
+
+70. What are the performance considerations in GraphQL?
+
+## **API Testing & Documentation** (15 Questions)
+
+71. How do you test REST APIs? (Unit, Integration, E2E)
+
+72. What tools do you use for API testing? (Postman, Insomnia)
+
+73. How do you automate API testing?
+
+74. Explain contract testing for APIs.
+
+75. What is API documentation? Tools for documentation?
+
+76. How do you use Swagger/OpenAPI for documentation?
+
+77. Explain API mocking for development.
+
+78. How do you version API documentation?
+
+79. What are API changelogs? How to maintain them?
+
+80. How do you test API performance/load?
+
+81. Explain API monitoring and alerting.
+
+82. What are API analytics? What metrics to track?
+
+83. How do you handle breaking changes in APIs?
+
+84. Explain API deprecation strategies.
+
+85. What are the best practices for API error messages?
+
+## **Advanced Topics** (15 Questions)
+
+86. What are webhooks? How do they differ from polling?
+
+87. How do you implement webhooks? (security, retries, idempotency)
+
+88. Explain real-time APIs with Server-Sent Events (SSE)
+
+89. What are gRPC and Protocol Buffers? How do they compare to REST?
+
+90. Explain message queues for async APIs (RabbitMQ, Kafka)
+
+91. What is API composition vs aggregation?
+
+92. How do you implement API caching? (Redis, CDN)
+
+93. Explain edge computing for APIs.
+
+94. What are idempotency keys? When to use them?
+
+95. How do you implement bulk operations in REST?
+
+96. Explain API rate limiting algorithms (Token bucket, Leaky bucket, Sliding window)
+
+97. What is API monetization? How would you implement it?
+
+98. Explain API analytics and usage tracking.
+
+99. How do you handle API backward compatibility?
+
+100. What are the emerging trends in API design?
+
+---
+
+# **MONGODB & DATABASE DESIGN** (130+ Questions)
+
+## **Fundamentals** (20 Questions)
+
+1. What is MongoDB? How does it differ from relational databases?
+
+2. Explain BSON vs JSON. Why does MongoDB use BSON?
+
+3. What are databases, collections, and documents?
+
+4. What is the `_id` field? How is it generated?
+
+5. Explain the MongoDB data types with examples.
+
+6. How do you insert documents? (insertOne, insertMany)
+
+7. How do you query documents? (find, findOne, comparison operators)
+
+8. Explain query operators ($eq, $gt, $lt, $in, $ne, etc.)
+
+9. What are logical operators? ($and, $or, $nor, $not)
+
+10. How do you update documents? (updateOne, updateMany, replaceOne)
+
+11. Explain update operators ($set, $unset, $inc, $push, $pull, etc.)
+
+12. How do you delete documents? (deleteOne, deleteMany)
+
+13. What are projections? How do you select specific fields?
+
+14. Explain sorting and limiting results.
+
+15. What is the difference between `find()` and `findOne()`?
+
+16. How do you count documents in a collection?
+
+17. Explain cursor methods in MongoDB.
+
+18. What are the different ways to query arrays?
+
+19. How do you query embedded documents?
+
+20. Explain the `explain()` method for query analysis.
+
+## **Schema Design** (20 Questions)
+
+21. What are the schema design principles in MongoDB?
+
+22. Explain embedding vs referencing with pros and cons.
+
+23. How do you model one-to-one relationships?
+
+24. How do you model one-to-many relationships?
+
+25. How do you model many-to-many relationships?
+
+26. What are the patterns for tree structures in MongoDB?
+
+27. How do you handle polymorphic schemas?
+
+28. Explain bucket pattern with time-series data.
+
+29. What is the outlier pattern? When to use it?
+
+30. How do you design for transactional data?
+
+31. Explain schema validation in MongoDB.
+
+32. What is schema versioning? How do you handle migrations?
+
+33. How do you model e-commerce product catalog?
+
+34. Design a social media database (users, posts, comments, likes)
+
+35. How would you model a blog platform?
+
+36. Design a real-time analytics database.
+
+37. What does a chat application schema look like?
+
+38. How do you model inventory management?
+
+39. Design a multi-tenant application schema.
+
+40. What are the considerations for large-scale schemas?
+
+## **Indexing** (15 Questions)
+
+41. What are indexes in MongoDB? Why are they important?
+
+42. Explain single field indexes with examples.
+
+43. What are compound indexes? How do they work?
+
+44. Explain multikey indexes for arrays.
+
+45. What are text indexes? How do you implement search?
+
+46. Explain geospatial indexes with queries.
+
+47. What are hashed indexes? When to use them?
+
+48. Explain unique and sparse indexes.
+
+49. What are TTL indexes? Auto-delete documents.
+
+50. How do you create and drop indexes?
+
+51. Explain index intersection.
+
+52. What is covered query? How to achieve it?
+
+53. How do you analyze index usage?
+
+54. What are the performance impacts of indexes?
+
+55. Explain index building in production.
+
+## **Aggregation Pipeline** (25 Questions)
+
+56. What is the aggregation pipeline? How does it work?
+
+57. Explain the stages of aggregation pipeline.
+
+58. What is `$match` stage? How is it different from `find()`?
+
+59. Explain `$project` with field inclusion, exclusion, and computed fields.
+
+60. What is `$group`? Show complex grouping examples.
+
+61. Explain `$unwind` with arrays. Handle empty arrays.
+
+62. What is `$lookup`? Perform joins between collections.
+
+63. Explain `$lookup` with pipeline for complex joins.
+
+64. What is `$addFields`? When to use it?
+
+65. Explain `$bucket` and `$bucketAuto` for histogram.
+
+66. What is `$facet` for multi-faceted aggregations?
+
+67. Explain `$sort` and `$limit` in aggregation.
+
+68. What is `$skip` for pagination?
+
+69. Explain `$sample` for random documents.
+
+70. What are `$first` and `$last` accumulators?
+
+71. Explain `$push` and `$addToSet` in grouping.
+
+72. What is `$merge`? Output results to collection.
+
+73. Explain `$out` vs `$merge`.
+
+74. What are conditional operators? (`$cond`, `$ifNull`, `$switch`)
+
+75. Explain date operators (`$year`, `$month`, `$dayOfWeek`, etc.)
+
+76. What are string operators? (`$concat`, `$substr`, `$toLower`)
+
+77. Explain array operators (`$filter`, `$map`, `$reduce`)
+
+78. What are arithmetic operators? (`$add`, `$subtract`, `$multiply`)
+
+79. Explain the aggregation pipeline performance optimization.
+
+80. How do you debug aggregation pipelines?
+
+## **Transactions & Atomic Operations** (10 Questions)
+
+81. What are transactions in MongoDB? ACID compliance?
+
+82. How do you implement multi-document transactions?
+
+83. Explain transaction syntax with startTransaction, commit, abort.
+
+84. What are retryable writes?
+
+85. Explain atomic operations vs transactions.
+
+86. What is `findAndModify()`? Use cases.
+
+87. How do you handle concurrency control?
+
+88. What are the performance implications of transactions?
+
+89. Explain optimistic vs pessimistic locking.
+
+90. When should you use transactions in MongoDB?
+
+## **Performance & Optimization** (15 Questions)
+
+91. How do you identify slow queries?
+
+92. What is the query optimizer? How does it choose plans?
+
+93. Explain the `hint()` method for index forcing.
+
+94. What are the common performance bottlenecks?
+
+95. How do you analyze query performance with `explain()`?
+
+96. Explain the different execution stages in `explain()`.
+
+97. What is covered query? How to achieve it?
+
+98. How do you optimize aggregation pipelines?
+
+99. What is the impact of large documents on performance?
+
+100. Explain read and write concerns.
+
+101. What is the `maxTimeMS()` option?
+
+102. How do you handle large result sets? (Cursor batching)
+
+103. Explain connection pooling best practices.
+
+104. What are the memory and disk usage considerations?
+
+105. How do you monitor MongoDB performance?
+
+## **Replication & High Availability** (10 Questions)
+
+106. What is replication in MongoDB?
+
+107. Explain replica set architecture.
+
+108. What is primary, secondary, and arbiter?
+
+109. How does failover work in replica sets?
+
+110. What is oplog? How does replication work?
+
+111. Explain read preferences (primary, secondary, nearest)
+
+112. How do you add and remove replica set members?
+
+113. What are the deployment considerations for replica sets?
+
+114. How do you handle replica set elections?
+
+115. Explain write concern and read concern in replication.
+
+## **Sharding & Scaling** (10 Questions)
+
+116. What is sharding? Why is it needed?
+
+117. Explain sharded cluster architecture (shards, mongos, config servers)
+
+118. What are shard keys? How do you choose a shard key?
+
+119. Explain hashed vs ranged sharding.
+
+120. What is chunk splitting and balancing?
+
+121. How do you implement zone sharding for data locality?
+
+122. What are the limitations of sharding?
+
+123. Explain query routing in sharded clusters.
+
+124. How do you monitor and maintain sharded clusters?
+
+125. When should you shard a collection?
+
+## **Security & Authentication** (5 Questions)
+
+126. How do you enable authentication in MongoDB?
+
+127. Explain role-based access control in MongoDB.
+
+128. What are the different authentication mechanisms?
+
+129. How do you encrypt data in MongoDB?
+
+130. What are the network security best practices?
+
+## **MongoDB Tools & Ecosystem** (5 Questions)
+
+131. What is MongoDB Atlas? Benefits?
+
+132. Explain MongoDB Compass and its features.
+
+133. What are MongoDB Stitch/Realm?
+
+134. How do you backup and restore MongoDB? (mongodump, mongorestore)
+
+135. Explain MongoDB monitoring tools (Ops Manager, Cloud Manager)
+
+---
+
+# **REACT.JS** (180+ Questions)
+
+## **React Fundamentals** (30 Questions)
+
+1. What is React? How does it differ from other frameworks?
+
+2. Explain the virtual DOM and its working mechanism.
+
+3. What is JSX? Why do we use it? How does it compile?
+
+4. What are the differences between JSX and HTML?
+
+5. Explain components in React. Functional vs Class components.
+
+6. What is the `render()` method in class components?
+
+7. How do you create a simple React component?
+
+8. Explain props in React. How do you pass data?
+
+9. What is state in React? How is it different from props?
+
+10. How do you handle events in React?
+
+11. Explain conditional rendering with 5 different methods.
+
+12. What are keys in React lists? Why are they important?
+
+13. How do you render lists in React?
+
+14. Explain the component lifecycle in class components.
+
+15. What are the lifecycle methods? (mounting, updating, unmounting)
+
+16. How do you handle forms in React? Controlled vs uncontrolled components.
+
+17. What is the difference between controlled and uncontrolled components?
+
+18. Explain refs in React. When to use them?
+
+19. What are fragments? Why use them?
+
+20. How do you style React components? (CSS, CSS modules, styled-components)
+
+21. What is the difference between `Element` and `Component`?
+
+22. Explain composition vs inheritance in React.
+
+23. How do you conditionally apply classes/styles?
+
+24. What is lifting state up? Provide example.
+
+25. Explain one-way data flow in React.
+
+26. What are React DevTools? How do you use them?
+
+27. How do you handle errors in React components?
+
+28. What is the `dangerouslySetInnerHTML` property?
+
+29. Explain the `children` prop with examples.
+
+30. How do you communicate between sibling components?
+
+## **Hooks** (35 Questions)
+
+31. What are hooks? Why were they introduced?
+
+32. What are the rules of hooks?
+
+33. Explain the `useState` hook with complex state objects.
+
+34. How does `useState` work? What happens on re-renders?
+
+35. Explain the `useEffect` hook. When does it run?
+
+36. What is the dependency array in `useEffect`? When to use it?
+
+37. How do you clean up effects in `useEffect`?
+
+38. Explain the difference between `useEffect` and lifecycle methods.
+
+39. What is `useContext`? How do you use it?
+
+40. Explain `useReducer` with complex state logic.
+
+41. Compare `useState` vs `useReducer`. When to use each?
+
+42. What is `useCallback`? When and why to use it?
+
+43. Explain `useMemo` with examples. How is it different from `useCallback`?
+
+44. What is `useRef`? 5 practical use cases.
+
+45. How does `useRef` differ from `useState`?
+
+46. Explain `useLayoutEffect` vs `useEffect`.
+
+47. What is `useImperativeHandle`? When to use it?
+
+48. Explain `useDebugValue` with custom hooks.
+
+49. What are custom hooks? Create 10 examples.
+
+50. How do you create a `useLocalStorage` hook?
+
+51. Implement a `useDebounce` hook.
+
+52. Create a `useThrottle` hook.
+
+53. Implement a `usePrevious` hook.
+
+54. Create a `useToggle` hook.
+
+55. Implement a `useFetch` hook with loading, error states.
+
+56. Create a `useClickOutside` hook.
+
+57. Implement a `useMediaQuery` hook for responsive design.
+
+58. Create a `useWindowSize` hook.
+
+59. Implement a `useHover` hook.
+
+60. Create a `useKeyPress` hook.
+
+61. How do you test custom hooks?
+
+62. What are the performance implications of hooks?
+
+63. Can you use hooks in class components?
+
+64. What are the common mistakes with hooks?
+
+65. Explain the new hooks in React 18/19.
+
+## **State Management** (20 Questions)
+
+66. What is state management in React? Why is it needed?
+
+67. Explain the Context API with Provider and Consumer.
+
+68. How do you use `useContext` with Context API?
+
+69. What are the limitations of Context API?
+
+70. What is Redux? Core principles (Single source of truth, State is read-only, Pure functions)
+
+71. Explain Redux architecture (Store, Actions, Reducers)
+
+72. What is the difference between Redux and Context API?
+
+73. Explain Redux middleware with examples (Redux Thunk, Redux Saga)
+
+74. What is Redux Toolkit? How does it simplify Redux?
+
+75. Explain the `createSlice` function in Redux Toolkit.
+
+76. What are selectors in Redux? `createSelector` for memoization.
+
+77. How do you handle async actions in Redux?
+
+78. Compare Redux Thunk vs Redux Saga.
+
+79. What is Zustand? How does it compare to Redux?
+
+80. Explain MobX with examples.
+
+81. What is Recoil? Atom and selector concepts.
+
+82. Compare different state management libraries.
+
+83. When should you use local state vs global state?
+
+84. How do you structure Redux for large applications?
+
+85. Explain the concept of normalization in Redux.
+
+## **Routing** (15 Questions)
+
+86. What is React Router? How does it work?
+
+87. Explain the main components of React Router (BrowserRouter, Routes, Route, Link)
+
+88. What is the difference between `Link` and `NavLink`?
+
+89. How do you handle nested routes?
+
+90. Explain dynamic routing with parameters.
+
+91. How do you access route parameters? (`useParams`)
+
+92. What is `useNavigate`? How do you programmatically navigate?
+
+93. Explain query parameters with `useSearchParams`.
+
+94. How do you implement protected routes?
+
+95. What are route guards? How to implement?
+
+96. Explain lazy loading with React Router.
+
+97. What is the `Outlet` component? When to use it?
+
+98. How do you handle 404 routes?
+
+99. Explain the history object and browser history.
+
+100. What are the performance considerations with routing?
+
+## **Performance Optimization** (20 Questions)
+
+101. What are the common performance issues in React?
+
+102. Explain the `React.memo` for functional components.
+
+103. What is `PureComponent` in class components?
+
+104. How do you prevent unnecessary re-renders?
+
+105. Explain `useCallback` and `useMemo` for optimization.
+
+106. What is code splitting? How do you implement it?
+
+107. Explain lazy loading with `React.lazy` and `Suspense`.
+
+108. What is the `key` prop? How does it affect performance?
+
+109. How do you optimize images in React?
+
+110. Explain virtualization with `react-window` or `react-virtualized`.
+
+111. What is the `useTransition` hook? When to use it?
+
+112. Explain `useDeferredValue` for deferring updates.
+
+113. How do you profile React applications?
+
+114. What are the React DevTools Profiler features?
+
+115. Explain the concept of throttling and debouncing in React.
+
+116. How do you optimize context usage to prevent re-renders?
+
+117. What are the best practices for state management performance?
+
+118. Explain the `useMemo` vs `useCallback` performance considerations.
+
+119. How do you handle large lists efficiently?
+
+120. What are the bundle size optimization techniques?
+
+## **Forms & Validation** (10 Questions)
+
+121. How do you handle forms in React?
+
+122. Explain controlled components for form inputs.
+
+123. What are uncontrolled components? When to use them?
+
+124. How do you validate forms? (React Hook Form, Formik)
+
+125. Compare React Hook Form vs Formik.
+
+126. How do you handle complex form state?
+
+127. Explain form libraries and their benefits.
+
+128. How do you implement multi-step forms?
+
+129. What are the performance considerations with forms?
+
+130. How do you handle form submission and error display?
+
+## **Testing** (15 Questions)
+
+131. Why test React applications? What to test?
+
+132. What is Jest? How do you set it up?
+
+133. Explain React Testing Library vs Enzyme.
+
+134. How do you test components with React Testing Library?
+
+135. What are the query methods in React Testing Library?
+
+136. How do you test user interactions? (fireEvent, userEvent)
+
+137. Explain testing asynchronous code.
+
+138. How do you test custom hooks? (renderHook)
+
+139. What is mocking? How do you mock modules?
+
+140. How do you test context and providers?
+
+141. Explain testing with Redux.
+
+142. How do you test routes and navigation?
+
+143. What is snapshot testing? Pros and cons?
+
+144. How do you measure test coverage?
+
+145. What are the best practices for React testing?
+
+## **Server-Side Rendering** (10 Questions)
+
+146. What is SSR? Why use it?
+
+147. Explain Next.js and its benefits.
+
+148. What is the difference between SSR, SSG, and ISR?
+
+149. How does Next.js handle routing?
+
+150. What are `getServerSideProps` and `getStaticProps`?
+
+151. Explain the `_app.js` and `_document.js` in Next.js.
+
+152. How do you implement API routes in Next.js?
+
+153. What are the performance benefits of Next.js?
+
+154. Explain image optimization in Next.js.
+
+155. How do you deploy Next.js applications?
+
+## **Advanced Patterns** (15 Questions)
+
+156. What are Higher-Order Components (HOC)? Create examples.
+
+157. Explain render props pattern with examples.
+
+158. What is compound components pattern?
+
+159. Explain controlled vs uncontrolled components pattern.
+
+160. What are portal? Use cases for portals.
+
+161. How do you implement error boundaries?
+
+162. What are render props vs HOCs vs hooks?
+
+163. Explain the provider pattern.
+
+164. What are the composition patterns in React?
+
+165. How do you implement reusable components?
+
+166. Explain the container-presentational pattern.
+
+167. What are the patterns for data fetching?
+
+168. How do you handle accessibility in React?
+
+169. What are the best practices for component design?
+
+170. Explain micro-frontends with React.
+
+## **React Ecosystem & Tools** (10 Questions)
+
+171. What are the essential tools in React ecosystem?
+
+172. Explain Create React App vs Vite.
+
+173. How do you set up a React project from scratch? (Webpack, Babel)
+
+174. What is the role of Babel in React?
+
+175. Explain Webpack configuration for React.
+
+176. What are the popular UI libraries? (Material-UI, Ant Design, Chakra UI)
+
+177. How do you manage environment variables in React?
+
+178. What are the debugging tools for React?
+
+179. Explain the React DevTools extensions.
+
+180. What are the recent updates in React 18/19?
+
+---
+
+# **SYSTEM DESIGN** (140+ Questions)
+
+## **Fundamentals** (20 Questions)
+
+1. What is system design? Why is it important?
+
+2. Explain the difference between high-level design and low-level design.
+
+3. What are the key characteristics of a good system? (Scalability, Reliability, Availability, etc.)
+
+4. Explain vertical vs horizontal scaling.
+
+5. What is load balancing? Algorithms and types.
+
+6. What is caching? Different caching strategies.
+
+7. Explain CDN and its benefits.
+
+8. What are databases? SQL vs NoSQL use cases.
+
+9. Explain ACID vs BASE properties.
+
+10. What is CAP theorem? Explain with examples.
+
+11. What is the difference between consistency and availability?
+
+12. Explain replication and its types.
+
+13. What is sharding? How does it work?
+
+14. Explain message queues and their use cases.
+
+15. What are microservices? How do they differ from monoliths?
+
+16. Explain API gateway pattern.
+
+17. What is service discovery? How does it work?
+
+18. Explain circuit breaker pattern.
+
+19. What are idempotent operations? Why important?
+
+20. Explain eventual consistency vs strong consistency.
+
+## **Design URL Shortener** (10 Questions)
+
+21. Design a URL shortening service like TinyURL/bit.ly.
+
+22. How would you generate unique short codes?
+
+23. What database would you use and why?
+
+24. How do you handle redirects efficiently?
+
+25. How would you implement analytics (click tracking)?
+
+26. How do you handle custom short URLs?
+
+27. What's the estimated storage for 100M URLs?
+
+28. How do you handle expiration of URLs?
+
+29. How would you scale to billions of URLs?
+
+30. Discuss caching strategy for popular URLs.
+
+## **Design Chat Application** (10 Questions)
+
+31. Design a chat application like WhatsApp/Messenger.
+
+32. How do you handle real-time messaging?
+
+33. What protocol would you use? WebSockets vs HTTP polling?
+
+34. How do you store chat history?
+
+35. How do you handle group chats?
+
+36. How do you implement read receipts and online status?
+
+37. How do you handle media sharing (images, videos)?
+
+38. What's the database schema for 1-on-1 and group chats?
+
+39. How do you ensure message ordering?
+
+40. How do you handle offline messages?
+
+## **Design Social Media Platform** (15 Questions)
+
+41. Design a social media platform like Twitter/Instagram.
+
+42. How do you handle user feeds? (Push vs Pull models)
+
+43. How do you generate the news feed for millions of users?
+
+44. What's the database design for posts, comments, likes?
+
+45. How do you implement follow/unfollow functionality?
+
+46. How do you handle trending topics/hashtags?
+
+47. How do you implement search functionality?
+
+48. How do you handle media storage and serving?
+
+49. How do you implement notifications?
+
+50. What's the timeline generation algorithm?
+
+51. How do you handle celebrity users (millions of followers)?
+
+52. How do you prevent duplicate content?
+
+53. How do you implement content moderation?
+
+54. How do you handle privacy settings?
+
+55. How do you scale for viral content?
+
+## **Design E-commerce Platform** (15 Questions)
+
+56. Design an e-commerce platform like Amazon.
+
+57. How do you design product catalog?
+
+58. How do you handle inventory management?
+
+59. How do you implement shopping cart?
+
+60. How do you handle order processing?
+
+61. How do you implement payment system?
+
+62. How do you handle concurrent orders (last item)?
+
+63. How do you design product search with filters?
+
+64. How do you implement recommendation system?
+
+65. How do you handle reviews and ratings?
+
+66. How do you manage seller accounts?
+
+67. How do you handle flash sales?
+
+68. How do you design order tracking?
+
+69. How do you implement wishlists?
+
+70. How do you handle returns and refunds?
+
+## **Design Video Streaming Platform** (10 Questions)
+
+71. Design a video streaming platform like YouTube/Netflix.
+
+72. How do you handle video upload and processing?
+
+73. How do you implement video transcoding?
+
+74. What's the video storage strategy?
+
+75. How do you use CDN for video delivery?
+
+76. How do you implement adaptive bitrate streaming?
+
+77. How do you handle comments and likes?
+
+78. How do you implement recommendations?
+
+79. How do you handle copyright detection?
+
+80. How do you measure video performance (buffering, quality)?
+
+## **Design Ride-Sharing Service** (10 Questions)
+
+81. Design a ride-sharing service like Uber/Lyft.
+
+82. How do you handle real-time location tracking?
+
+83. How do you match riders with nearby drivers?
+
+84. How do you handle surge pricing?
+
+85. How do you calculate ETAs and routes?
+
+86. How do you handle ride history and payments?
+
+87. How do you design for multiple cities?
+
+88. How do you handle driver availability?
+
+89. How do you implement trip cancellation?
+
+90. How do you handle ratings and reviews?
+
+## **Design Payment System** (10 Questions)
+
+91. Design a payment system like Stripe/PayPal.
+
+92. How do you ensure idempotency in payments?
+
+93. How do you handle double-spending?
+
+94. How do you implement fraud detection?
+
+95. How do you handle multiple payment methods?
+
+96. How do you design for international payments?
+
+97. How do you handle reconciliation and settlements?
+
+98. How do you design for high availability?
+
+99. How do you handle refunds and chargebacks?
+
+100. What's the database schema for transactions?
+
+## **Design File Storage System** (10 Questions)
+
+101. Design a file storage system like Google Drive/Dropbox.
+
+102. How do you handle file uploads and downloads?
+
+103. How do you implement file versioning?
+
+104. How do you handle file synchronization across devices?
+
+105. How do you implement sharing and permissions?
+
+106. How do you handle large files?
+
+107. What's the storage architecture for files?
+
+108. How do you implement search within files?
+
+109. How do you handle file locking for collaboration?
+
+110. How do you ensure data durability?
+
+## **Design Notification System** (10 Questions)
+
+111. Design a notification system for millions of users.
+
+112. How do you handle different notification types? (Push, Email, SMS)
+
+113. How do you handle delivery guarantees?
+
+114. How do you implement user preferences?
+
+115. How do you handle rate limiting for notifications?
+
+116. How do you design for high throughput?
+
+117. How do you handle failed notifications?
+
+118. How do you implement scheduling for notifications?
+
+119. How do you track notification analytics?
+
+120. What's the database schema for notifications?
+
+## **Design Web Crawler** (10 Questions)
+
+121. Design a web crawler like Googlebot.
+
+122. How do you discover new URLs?
+
+123. How do you handle crawling politeness (robots.txt)?
+
+124. How do you detect and avoid duplicates?
+
+125. How do you prioritize which pages to crawl?
+
+126. How do you handle dynamic content?
+
+127. How do you store crawled data?
+
+128. How do you handle crawler traps?
+
+129. How do you scale crawling to billions of pages?
+
+130. How do you refresh previously crawled pages?
+
+## **Design Analytics Platform** (10 Questions)
+
+131. Design a real-time analytics platform like Google Analytics.
+
+132. How do you track user events?
+
+133. How do you handle high-velocity data ingestion?
+
+134. How do you process and aggregate data in real-time?
+
+135. How do you store time-series data?
+
+136. How do you generate reports and dashboards?
+
+137. How do you handle data retention?
+
+138. How do you ensure data accuracy?
+
+139. How do you handle data privacy (GDPR)?
+
+140. How do you query large datasets efficiently?
+
+---
+
+# **SECURITY** (100+ Questions)
+
+## **Web Security Fundamentals** (20 Questions)
+
+1. What is the CIA triad in security?
+
+2. Explain authentication vs authorization.
+
+3. What are the OWASP Top 10 vulnerabilities?
+
+4. What is XSS (Cross-Site Scripting)? Types and prevention.
+
+5. Explain CSRF (Cross-Site Request Forgery) with examples.
+
+6. How do you prevent CSRF attacks? (Tokens, SameSite cookies)
+
+7. What is SQL Injection? How do you prevent it?
+
+8. Explain NoSQL injection in MongoDB. Prevention?
+
+9. What is command injection? Examples?
+
+10. Explain IDOR (Insecure Direct Object References).
+
+11. What is clickjacking? How to prevent?
+
+12. Explain man-in-the-middle attacks.
+
+13. What is session fixation? Prevention?
+
+14. Explain password security best practices.
+
+15. What is HTTPS? How does SSL/TLS work?
+
+16. Explain the SSL/TLS handshake process.
+
+17. What are security headers? (HSTS, CSP, X-Frame-Options)
+
+18. What is CORS? How does it work?
+
+19. Explain Same-Origin Policy.
+
+20. What are the best practices for file uploads?
+
+## **Authentication & Authorization** (20 Questions)
+
+21. What is the difference between authentication and authorization?
+
+22. Explain session-based authentication.
+
+23. What are cookies? Secure vs HttpOnly vs SameSite flags?
+
+24. Explain JWT (JSON Web Tokens). Structure and working.
+
+25. What are the advantages of JWT over sessions?
+
+26. How do you securely store JWT on client side?
+
+27. What are refresh tokens? Why needed?
+
+28. How do you implement logout with JWT?
+
+29. Explain OAuth 2.0 flow with all grant types.
+
+30. What is OpenID Connect? How is it different from OAuth?
+
+31. Explain SAML authentication.
+
+32. What is SSO (Single Sign-On)? How does it work?
+
+33. How do you implement 2FA/MFA?
+
+34. What is biometric authentication? Security considerations?
+
+35. Explain passwordless authentication.
+
+36. What is role-based access control (RBAC)?
+
+37. Explain attribute-based access control (ABAC).
+
+38. What is the principle of least privilege?
+
+39. How do you implement API key authentication?
+
+40. What are the common authentication vulnerabilities?
+
+## **API Security** (15 Questions)
+
+41. How do you secure REST APIs?
+
+42. What are API keys? Pros and cons?
+
+43. Explain rate limiting and throttling.
+
+44. How do you prevent DDoS attacks on APIs?
+
+45. What is API gateway security features?
+
+46. How do you validate and sanitize API inputs?
+
+47. What is request signing? When to use?
+
+48. Explain API versioning security considerations.
+
+49. How do you handle sensitive data in APIs?
+
+50. What is GraphQL security? (Depth limiting, cost analysis)
+
+51. How do you secure WebSocket connections?
+
+52. What are the OWASP API Security Top 10?
+
+53. How do you implement API audit logging?
+
+54. What is API discovery and why prevent it?
+
+55. How do you handle CORS securely?
+
+## **Data Security** (15 Questions)
+
+56. What is encryption at rest vs in transit?
+
+57. Explain symmetric vs asymmetric encryption.
+
+58. What is hashing? Compare with encryption.
+
+59. Explain bcrypt, scrypt, Argon2 for password hashing.
+
+60. What is salting? Why is it important?
+
+61. How do you encrypt sensitive data in databases?
+
+62. What is TLS? How does it secure data in transit?
+
+63. Explain PGP/GPG encryption.
+
+64. What is tokenization? How is it different from encryption?
+
+65. How do you handle credit card data securely? (PCI DSS)
+
+66. What is data masking? When to use?
+
+67. Explain homomorphic encryption.
+
+68. What is key management? Best practices?
+
+69. How do you securely delete data?
+
+70. What is data classification and why important?
+
+## **Infrastructure Security** (10 Questions)
+
+71. How do you secure cloud infrastructure? (AWS/Azure/GCP)
+
+72. What is IAM? How do you manage permissions?
+
+73. Explain VPC and network security groups.
+
+74. What is a WAF (Web Application Firewall)?
+
+75. How do you secure containerized applications? (Docker/Kubernetes)
+
+76. What is secrets management? (HashiCorp Vault, AWS Secrets Manager)
+
+77. How do you implement secure CI/CD pipelines?
+
+78. What is infrastructure as code security?
+
+79. Explain DDoS protection strategies.
+
+80. How do you set up intrusion detection systems? (IDS/IPS)
+
+## **Application Security** (10 Questions)
+
+81. What is secure SDLC?
+
+82. Explain threat modeling with STRIDE.
+
+83. What are security code reviews? What to look for?
+
+84. How do you use static analysis tools (SAST)?
+
+85. Explain dynamic application security testing (DAST).
+
+86. What is penetration testing? Types?
+
+87. How do you manage third-party dependencies securely?
+
+88. What are software composition analysis tools? (SCA)
+
+89. Explain bug bounty programs.
+
+90. How do you handle security incident response?
+
+## **Cryptography** (10 Questions)
+
+91. What are cryptographic hash functions? Properties?
+
+92. Explain MD5, SHA-1, SHA-256. Which are secure?
+
+93. What is a digital signature? How does it work?
+
+94. Explain PKI (Public Key Infrastructure).
+
+95. What are digital certificates? How do CAs work?
+
+96. Explain the difference between encoding, encryption, hashing.
+
+97. What is a cryptographic nonce?
+
+98. Explain HMAC and its uses.
+
+99. What is perfect forward secrecy?
+
+100. How do you implement end-to-end encryption?
+
+---
+
+# **TESTING** (100+ Questions)
+
+## **Testing Fundamentals** (15 Questions)
+
+1. Why is testing important in software development?
+
+2. What are the different levels of testing? (Unit, Integration, System, Acceptance)
+
+3. Explain the testing pyramid.
+
+4. What is the difference between verification and validation?
+
+5. What are black box vs white box testing?
+
+6. Explain functional vs non-functional testing.
+
+7. What is test-driven development (TDD)? Red-Green-Refactor cycle.
+
+8. Explain behavior-driven development (BDD) with Gherkin syntax.
+
+9. What are mocks, stubs, and fakes? Differences?
+
+10. What is test coverage? What's a good coverage?
+
+11. Explain the FIRST principles of testing.
+
+12. What is regression testing? When to do it?
+
+13. Explain smoke testing vs sanity testing.
+
+14. What is exploratory testing?
+
+15. How do you decide what to test?
+
+## **Unit Testing** (15 Questions)
+
+16. What is unit testing? What makes a good unit test?
+
+17. How do you write unit tests in JavaScript? (Jest, Mocha)
+
+18. Explain Jest vs Mocha vs Jasmine.
+
+19. What are assertions? Common assertion libraries?
+
+20. How do you structure unit tests? (Arrange-Act-Assert)
+
+21. What is code isolation in unit tests?
+
+22. How do you test functions with dependencies?
+
+23. What is mocking? How do you mock modules in Jest?
+
+24. Explain spy functions. When to use?
+
+25. How do you test asynchronous code?
+
+26. What are snapshots? When to use them?
+
+27. How do you test error handling?
+
+28. What is parametrized testing? Examples?
+
+29. How do you set up and tear down tests? (beforeEach, afterEach)
+
+30. What are the best practices for unit testing?
+
+## **Integration Testing** (10 Questions)
+
+31. What is integration testing? How is it different from unit testing?
+
+32. What are the different approaches to integration testing? (Big Bang, Top-down, Bottom-up)
+
+33. How do you test database interactions?
+
+34. How do you test API endpoints? (Supertest)
+
+35. What is contract testing? (Pact)
+
+36. How do you test microservices integration?
+
+37. What are test containers?
+
+38. How do you handle external services in integration tests?
+
+39. Explain integration testing in CI/CD pipeline.
+
+40. What are the challenges with integration testing?
+
+## **End-to-End Testing** (10 Questions)
+
+41. What is E2E testing? When is it needed?
+
+42. Explain Cypress vs Selenium vs Playwright.
+
+43. How do you write E2E tests for web applications?
+
+44. How do you handle test data in E2E tests?
+
+45. What is visual regression testing?
+
+46. How do you test cross-browser compatibility?
+
+47. How do you test mobile responsiveness?
+
+48. What are the challenges with E2E testing?
+
+49. How do you run E2E tests in CI/CD?
+
+50. What is the flakiness problem in E2E tests?
+
+## **React Testing** (15 Questions)
+
+51. How do you test React components?
+
+52. What is React Testing Library? Philosophy?
+
+53. Explain the query priorities in React Testing Library.
+
+54. How do you test user interactions? (fireEvent, userEvent)
+
+55. How do you test async operations in components?
+
+56. How do you test custom hooks? (renderHook)
+
+57. How do you test context providers?
+
+58. How do you test Redux-connected components?
+
+59. How do you test React Router components?
+
+60. What is snapshot testing in React? Pros/cons?
+
+61. How do you test error boundaries?
+
+62. How do you test component props and state?
+
+63. What is the `act()` function? When to use?
+
+64. How do you test form submissions?
+
+65. How do you test accessibility in React?
+
+## **Node.js/API Testing** (10 Questions)
+
+66. How do you test Node.js applications?
+
+67. How do you test Express routes?
+
+68. What is Supertest? Write examples.
+
+69. How do you test middleware functions?
+
+70. How do you test database operations?
+
+71. How do you mock requests and responses?
+
+72. How do you test authentication middleware?
+
+73. How do you test error handlers?
+
+74. What is API contract testing?
+
+75. How do you test WebSocket connections?
+
+## **Performance Testing** (10 Questions)
+
+76. What is performance testing? Types? (Load, Stress, Spike, Endurance)
+
+77. How do you measure API response times?
+
+78. What tools do you use for load testing? (k6, Artillery, JMeter)
+
+79. How do you identify performance bottlenecks?
+
+80. What is latency and throughput?
+
+81. How do you test database performance?
+
+82. How do you measure frontend performance? (Lighthouse)
+
+83. What is the RAIL model for performance?
+
+84. How do you set performance budgets?
+
+85. How do you monitor performance in production?
+
+## **Security Testing** (5 Questions)
+
+86. What is security testing? Types?
+
+87. What is penetration testing? How is it done?
+
+88. How do you test for XSS vulnerabilities?
+
+89. How do you test for SQL injection?
+
+90. How do you use security scanning tools? (OWASP ZAP, Burp Suite)
+
+## **Test Automation & CI/CD** (10 Questions)
+
+91. How do you automate tests in CI/CD?
+
+92. What is the test automation pyramid?
+
+93. How do you handle test data in automation?
+
+94. How do you parallelize test execution?
+
+95. What are the best practices for test flakiness?
+
+96. How do you report test results?
+
+97. What is continuous testing?
+
+98. How do you integrate tests with GitHub Actions?
+
+99. How do you measure and improve test coverage?
+
+100. What are the common test automation anti-patterns?
+
+---
+
+# **DEVOPS & DEPLOYMENT** (100+ Questions)
+
+## **Version Control (Git)** (15 Questions)
+
+1. What is Git? How does it differ from other VCS?
+
+2. Explain the difference between Git and GitHub.
+
+3. What are the basic Git commands? (init, add, commit, push, pull)
+
+4. Explain branching strategies. (Git Flow, GitHub Flow, Trunk-based)
+
+5. What is merge vs rebase? When to use each?
+
+6. How do you resolve merge conflicts?
+
+7. What is `git stash`? When to use it?
+
+8. Explain `git reset` vs `git revert` vs `git checkout`.
+
+9. What are Git hooks? Give examples.
+
+10. How do you squash commits?
+
+11. What is `cherry-pick`? When to use?
+
+12. How do you handle large files in Git? (Git LFS)
+
+13. Explain the `.gitignore` file with patterns.
+
+14. What is the difference between `HEAD`, `working tree`, and `index`?
+
+15. How do you contribute to open source with Git?
+
+## **CI/CD** (15 Questions)
+
+16. What is CI/CD? Why is it important?
+
+17. Explain the CI/CD pipeline stages.
+
+18. What are the benefits of continuous integration?
+
+19. What is continuous delivery vs continuous deployment?
+
+20. How do you set up CI/CD with GitHub Actions?
+
+21. Explain Jenkins pipeline as code.
+
+22. What is GitLab CI/CD? .gitlab-ci.yml configuration.
+
+23. How do you use CircleCI or Travis CI?
+
+24. What are build artifacts? How to manage them?
+
+25. How do you handle environment-specific configurations?
+
+26. What is infrastructure as code? (Terraform, CloudFormation)
+
+27. How do you implement blue-green deployment?
+
+28. Explain canary deployments.
+
+29. What is feature flags? How do they help in CI/CD?
+
+30. How do you rollback a failed deployment?
+
+## **Docker** (15 Questions)
+
+31. What is Docker? Why use containers?
+
+32. Explain the difference between Docker images and containers.
+
+33. What is a Dockerfile? Write one for a Node.js app.
+
+34. Explain Dockerfile instructions (FROM, RUN, CMD, ENTRYPOINT, COPY, etc.)
+
+35. What is the difference between CMD and ENTRYPOINT?
+
+36. How do you manage environment variables in Docker?
+
+37. What are Docker volumes? Why needed?
+
+38. Explain Docker networks and their types.
+
+39. What is Docker Compose? Write docker-compose.yml for MERN stack.
+
+40. How do you optimize Docker images? (Multi-stage builds)
+
+41. What is Docker registry? Docker Hub vs private registry.
+
+42. How do you debug a Docker container?
+
+43. What are the security best practices for Docker?
+
+44. Explain Docker Swarm vs Kubernetes.
+
+45. How do you handle logging in Docker?
+
+## **Kubernetes** (15 Questions)
+
+46. What is Kubernetes? Why use it?
+
+47. Explain Kubernetes architecture (Master, Nodes, Pods).
+
+48. What is a Pod? How is it different from a container?
+
+49. Explain Deployments and ReplicaSets.
+
+50. What are Services in Kubernetes? Types?
+
+51. How do you expose applications to the outside world? (Ingress, LoadBalancer)
+
+52. What are ConfigMaps and Secrets?
+
+53. Explain Persistent Volumes and Persistent Volume Claims.
+
+54. What is Helm? How do you use charts?
+
+55. How do you perform rolling updates in Kubernetes?
+
+56. What are StatefulSets? When to use?
+
+57. Explain Kubernetes Namespaces.
+
+58. How do you monitor Kubernetes? (Prometheus, Grafana)
+
+59. What are the security best practices in Kubernetes? (RBAC, PodSecurityPolicies)
+
+60. How do you debug applications in Kubernetes?
+
+## **Cloud Platforms** (15 Questions)
+
+61. What are the major cloud providers? (AWS, Azure, GCP)
+
+62. Explain IaaS, PaaS, SaaS with examples.
+
+63. What is AWS EC2? How do you launch an instance?
+
+64. Explain AWS S3 for storage. Use cases?
+
+65. What is AWS Lambda? Serverless computing.
+
+66. How do you use AWS RDS for databases?
+
+67. Explain AWS VPC and networking concepts.
+
+68. What is AWS CloudFront? CDN benefits.
+
+69. How do you use AWS IAM for security?
+
+70. Explain Azure equivalent services.
+
+71. What is Google Cloud Platform? Key services.
+
+72. How do you choose a cloud provider?
+
+73. What is multi-cloud strategy? Benefits and challenges?
+
+74. How do you estimate cloud costs?
+
+75. What are cloud design patterns?
+
+## **Monitoring & Logging** (10 Questions)
+
+76. Why is monitoring important? What to monitor?
+
+77. Explain the difference between monitoring and observability.
+
+78. What are metrics, logs, and traces? (The three pillars)
+
+79. How do you use Prometheus for monitoring?
+
+80. What is Grafana? How do you create dashboards?
+
+81. Explain ELK Stack (Elasticsearch, Logstash, Kibana).
+
+82. What is distributed tracing? (Jaeger, Zipkin)
+
+83. How do you set up alerts for critical issues?
+
+84. What are SLIs, SLOs, and SLAs?
+
+85. How do you monitor application performance? (APM tools)
+
+## **Infrastructure as Code** (5 Questions)
+
+86. What is Infrastructure as Code (IaC)? Benefits?
+
+87. Explain Terraform vs CloudFormation.
+
+88. What is Terraform? How do you write configurations?
+
+89. What is Ansible? How is it different from Terraform?
+
+90. How do you manage state in Terraform?
+
+## **Networking Basics** (10 Questions)
+
+91. What is DNS? How does it work?
+
+92. Explain HTTP/HTTPS protocols.
+
+93. What is TCP/IP model? Layers?
+
+94. What are the different HTTP methods and status codes?
+
+95. What is load balancing? Algorithms?
+
+96. Explain reverse proxy vs forward proxy.
+
+97. What is a firewall? How does it work?
+
+98. What are SSL/TLS certificates? How to obtain?
+
+99. What is a CDN? How does it improve performance?
+
+100. What are the common network protocols? (FTP, SSH, SMTP)
+
+---
+
+# **DATA STRUCTURES & ALGORITHMS** (150+ Questions)
+
+## **Arrays** (25 Questions)
+
+1. How do you find the missing number in an array of 1 to n?
+
+2. Find the duplicate number in an array.
+
+3. How do you find the largest and smallest number in an unsorted array?
+
+4. Find all pairs in an array that sum to a given value.
+
+5. How do you reverse an array in place?
+
+6. Rotate an array by k positions.
+
+7. Find the intersection of two arrays.
+
+8. Find the union of two arrays.
+
+9. How do you move all zeros to the end of an array?
+
+10. Find the contiguous subarray with maximum sum (Kadane's algorithm).
+
+11. How do you find the median of two sorted arrays?
+
+12. Find the longest consecutive sequence in an array.
+
+13. How do you merge two sorted arrays?
+
+14. Find the product of all elements except itself.
+
+15. How do you find the majority element (appears more than n/2 times)?
+
+16. Find the minimum in rotated sorted array.
+
+17. Search in rotated sorted array.
+
+18. How do you find the kth largest element in an array?
+
+19. Trapping rain water problem.
+
+20. Container with most water.
+
+21. How do you implement a sparse array?
+
+22. Find the first and last position of an element in sorted array.
+
+23. How do you find the peak element?
+
+24. Next permutation of an array.
+
+25. How do you find the longest increasing subsequence?
+
+## **Strings** (20 Questions)
+
+26. How do you reverse a string in place?
+
+27. Check if a string is a palindrome.
+
+28. Find the first non-repeating character in a string.
+
+29. How do you count vowels and consonants in a string?
+
+30. Implement string compression (aabcccccaaa -> a2b1c5a3).
+
+31. Check if two strings are anagrams.
+
+32. Find the longest substring without repeating characters.
+
+33. How do you check if a string is a valid palindrome ignoring non-alphanumeric?
+
+34. Implement atoi/strtol (string to integer).
+
+35. Find all permutations of a string.
+
+36. How do you check if a string is a valid number?
+
+37. Longest palindromic substring.
+
+38. How do you find the longest common prefix among strings?
+
+39. Implement strStr() (find substring in string).
+
+40. Group anagrams together.
+
+41. How do you check if a string has all unique characters?
+
+42. Minimum window substring.
+
+43. How do you convert a string to integer without built-in functions?
+
+44. Edit distance between two strings.
+
+45. How do you decode a string (like "3[a2[c]]" -> "accaccacc")?
+
+## **Linked Lists** (20 Questions)
+
+46. Implement a singly linked list with basic operations.
+
+47. How do you reverse a linked list?
+
+48. Find the middle of a linked list.
+
+49. Detect a cycle in a linked list (Floyd's algorithm).
+
+50. Find the starting node of a cycle.
+
+51. Remove duplicates from a sorted linked list.
+
+52. Find the nth node from the end.
+
+53. Merge two sorted linked lists.
+
+54. Check if a linked list is a palindrome.
+
+55. Add two numbers represented by linked lists.
+
+56. Intersection point of two linked lists.
+
+57. Rotate a linked list by k positions.
+
+58. Remove the nth node from the end.
+
+59. Partition a linked list around a value.
+
+60. Implement LRU cache using linked list and hashmap.
+
+61. Clone a linked list with random pointer.
+
+62. Flatten a multilevel doubly linked list.
+
+63. Reorder list (L0→Ln→L1→Ln-1...).
+
+64. Split a circular linked list into two halves.
+
+65. Merge sort on linked list.
+
+## **Stacks & Queues** (15 Questions)
+
+66. Implement a stack using arrays.
+
+67. Implement a queue using arrays.
+
+68. Implement a stack using two queues.
+
+69. Implement a queue using two stacks.
+
+70. Implement a min stack (get minimum in O(1)).
+
+71. Check for balanced parentheses.
+
+72. Evaluate postfix expression.
+
+73. Implement a circular queue.
+
+74. Design a stack that supports getMin() in O(1).
+
+75. Implement a deque (double-ended queue).
+
+76. Next greater element using stack.
+
+77. Largest rectangle in histogram.
+
+78. Sliding window maximum.
+
+79. Implement a priority queue.
+
+80. Design a hit counter (number of hits in last 5 minutes).
+
+## **Trees** (25 Questions)
+
+81. Implement a binary tree with traversal methods (inorder, preorder, postorder).
+
+82. Find the height of a binary tree.
+
+83. Level order traversal of binary tree.
+
+84. Check if a binary tree is balanced.
+
+85. Find the diameter of a binary tree.
+
+86. Check if two trees are identical.
+
+87. Find the lowest common ancestor in a binary tree.
+
+88. Convert sorted array to balanced BST.
+
+89. Validate if a tree is a BST.
+
+90. Find kth smallest element in BST.
+
+91. Serialize and deserialize a binary tree.
+
+92. Print binary tree in zigzag level order.
+
+93. Find the maximum path sum in a binary tree.
+
+94. Build tree from inorder and preorder traversal.
+
+95. Flatten binary tree to linked list.
+
+96. Populate next right pointers in each node.
+
+97. Count number of nodes in complete tree.
+
+98. Find the distance between two nodes in a binary tree.
+
+99. Check if a binary tree is a subtree of another.
+
+100. Mirror a binary tree.
+
+101. Print all root-to-leaf paths.
+
+102. Find the deepest node in binary tree.
+
+103. Convert binary tree to doubly linked list.
+
+104. Check if a binary tree is symmetric.
+
+105. Find the vertical order traversal.
+
+## **Heaps & Priority Queues** (10 Questions)
+
+106. Implement a min heap from scratch.
+
+107. Find k largest elements in an array.
+
+108. Find k smallest elements in an array.
+
+109. Merge k sorted arrays.
+
+110. Find the median from a data stream.
+
+111. Top k frequent elements.
+
+112. Sort a nearly sorted array.
+
+113. Connect ropes with minimum cost.
+
+114. Find k pairs with smallest sums.
+
+115. Schedule tasks with minimum time.
+
+## **Graphs** (15 Questions)
+
+116. Implement graph using adjacency list and matrix.
+
+117. BFS and DFS traversals.
+
+118. Detect cycle in directed graph.
+
+119. Detect cycle in undirected graph.
+
+120. Topological sorting.
+
+121. Find shortest path in unweighted graph (BFS).
+
+122. Dijkstra's algorithm for shortest path.
+
+123. Bellman-Ford algorithm.
+
+124. Floyd-Warshall algorithm.
+
+125. Minimum spanning tree (Prim's and Kruskal's).
+
+126. Count number of islands (connected components).
+
+127. Clone a graph.
+
+128. Course schedule (detect cycle in prerequisite graph).
+
+129. Word ladder problem.
+
+130. Alien dictionary (order of characters).
+
+## **Dynamic Programming** (20 Questions)
+
+131. What is dynamic programming? When to use it?
+
+132. Explain memoization vs tabulation.
+
+133. Fibonacci number (recursive, memoized, tabulation).
+
+134. Climbing stairs problem.
+
+135. Coin change (minimum coins).
+
+136. Coin change (number of ways).
+
+137. Longest common subsequence.
+
+138. Longest increasing subsequence.
+
+139. Edit distance (Levenshtein distance).
+
+140. 0/1 Knapsack problem.
+
+141. Unbounded knapsack.
+
+142. Subset sum problem.
+
+143. Partition equal subset sum.
+
+144. Maximum product subarray.
+
+145. House robber problem.
+
+146. Jump game (can reach end).
+
+147. Unique paths in grid.
+
+148. Minimum path sum in grid.
+
+149. Palindrome partitioning.
+
+150. Decode ways (number of ways to decode string).
+
+## **Recursion & Backtracking** (10 Questions)
+
+151. Generate all subsets of a set.
+
+152. Generate all permutations of a string.
+
+153. Generate all valid parentheses.
+
+154. N-Queens problem.
+
+155. Sudoku solver.
+
+156. Word search in grid.
+
+157. Combination sum (find all combinations that sum to target).
+
+158. Letter combinations of a phone number.
+
+159. Rat in a maze problem.
+
+160. Knight's tour problem.
+
+## **Sorting & Searching** (10 Questions)
+
+161. Implement bubble sort, selection sort, insertion sort.
+
+162. Implement merge sort.
+
+163. Implement quick sort.
+
+164. Implement heap sort.
+
+165. Counting sort for integers.
+
+166. Bucket sort for floating numbers.
+
+167. Binary search (iterative and recursive).
+
+168. Find first and last position in sorted array.
+
+169. Search in rotated sorted array.
+
+170. Find peak element in array.
+
+---
+
+# **BEHAVIORAL & HR** (100+ Questions)
+
+## **Self-Introduction & Background** (10 Questions)
+
+1. Tell me about yourself.
+
+2. Walk me through your resume.
+
+3. What's your technical background? How did you get into development?
+
+4. What projects have you worked on? Which one are you most proud of?
+
+5. Why did you choose to become a full-stack developer?
+
+6. What are your strengths and weaknesses as a developer?
+
+7. What technologies are you most comfortable with?
+
+8. What's your experience with the MERN stack specifically?
+
+9. How do you keep your skills up to date?
+
+10. What's the most interesting technology you've learned recently?
+
+## **Project Experience** (15 Questions)
+
+11. Tell me about your most challenging project.
+
+12. Describe a project where you had to make technical trade-offs.
+
+13. How did you handle a difficult bug or technical problem?
+
+14. Tell me about a time you had to refactor legacy code.
+
+15. How did you handle a project with tight deadlines?
+
+16. Describe a feature you built from scratch.
+
+17. How did you handle database design for your project?
+
+18. Tell me about a time you optimized performance in your application.
+
+19. How did you handle security in your projects?
+
+20. Describe how you tested your application.
+
+21. What was your deployment process like?
+
+22. How did you handle user feedback or feature requests?
+
+23. Tell me about a time your project failed or had issues.
+
+24. How did you document your code and APIs?
+
+25. What would you do differently if you rebuilt that project?
+
+## **Teamwork & Collaboration** (15 Questions)
+
+26. Have you worked in a team environment? What was your role?
+
+27. How do you handle disagreements with team members?
+
+28. Tell me about a time you helped a teammate who was stuck.
+
+29. How do you handle code reviews? Both giving and receiving feedback.
+
+30. Describe a situation where you had to work with a difficult colleague.
+
+31. How do you communicate technical concepts to non-technical stakeholders?
+
+32. Have you ever mentored junior developers? How did you approach it?
+
+33. How do you handle situations where you're blocked by another team?
+
+34. Tell me about a successful collaboration on a project.
+
+35. How do you contribute to team meetings and discussions?
+
+36. What's your preferred way of communicating with your team? (Slack, email, in-person)
+
+37. How do you handle remote work? Any experience with distributed teams?
+
+38. Tell me about a time you had to compromise on your technical solution.
+
+39. How do you share knowledge with your team?
+
+40. What do you look for in a good team culture?
+
+## **Problem-Solving** (10 Questions)
+
+41. Describe a difficult technical problem you solved.
+
+42. How do you approach debugging a complex issue?
+
+43. Tell me about a time you had to learn a new technology quickly.
+
+44. How do you break down large features into manageable tasks?
+
+45. Describe a situation where you had to make a decision with incomplete information.
+
+46. How do you handle technical debt?
+
+47. Tell me about a time you had to prioritize multiple tasks.
+
+48. How do you estimate time for development tasks?
+
+49. What's your process for troubleshooting production issues?
+
+50. How do you stay calm under pressure?
+
+## **Conflict & Criticism** (10 Questions)
+
+51. Tell me about a time you received constructive criticism. How did you handle it?
+
+52. How do you handle a situation where you disagree with your manager's decision?
+
+53. Describe a time you made a mistake. How did you handle it?
+
+54. How do you handle pressure or stressful situations?
+
+55. Tell me about a time you had to deal with an unreasonable deadline.
+
+56. How do you respond when someone challenges your technical decisions?
+
+57. Have you ever had to push back on a requirement? How did you handle it?
+
+58. Tell me about a conflict you had with a teammate and how you resolved it.
+
+59. How do you handle feedback on your code?
+
+60. What do you do when you're stuck on a problem for too long?
+
+## **Leadership & Initiative** (10 Questions)
+
+61. Have you ever taken the lead on a project? Describe it.
+
+62. Tell me about a time you went above and beyond your responsibilities.
+
+63. Have you introduced any new tools or processes to your team?
+
+64. Describe a time you advocated for a better solution.
+
+65. How do you motivate yourself and others?
+
+66. Tell me about a time you had to make a tough decision.
+
+67. Have you ever organized any knowledge-sharing sessions?
+
+68. What would you change about your current/last workplace?
+
+69. How do you stay productive and focused?
+
+70. Tell me about a time you influenced a team decision.
+
+## **Career Goals & Motivation** (10 Questions)
+
+71. Where do you see yourself in 5 years?
+
+72. What are your career goals?
+
+73. Why do you want to work at this company?
+
+74. What do you look for in your next role?
+
+75. What kind of projects interest you the most?
+
+76. Are you more interested in frontend or backend? Why?
+
+77. Do you prefer working on new features or maintaining existing ones?
+
+78. How do you define success in your role?
+
+79. What motivates you to do your best work?
+
+80. What are you looking to learn next?
+
+## **Company & Role Fit** (10 Questions)
+
+81. What do you know about our company?
+
+82. Why do you want to leave your current job? (if applicable)
+
+83. What are you looking for in a new position?
+
+84. How does this role align with your career goals?
+
+85. What can you contribute to our team?
+
+86. How do you handle the interview process? Any feedback?
+
+87. Do you have any questions about the role or company?
+
+88. What's your expected salary range?
+
+89. When can you start?
+
+90. Do you have any other offers?
+
+## **Soft Skills & Work Style** (10 Questions)
+
+91. How do you organize your workday?
+
+92. What tools do you use for productivity?
+
+93. How do you handle interruptions and context switching?
+
+94. Are you more productive working alone or in a team?
+
+95. How do you ensure quality in your work?
+
+96. What's your preferred development environment? (OS, editors, tools)
+
+97. How do you handle repetitive tasks?
+
+98. What's your approach to learning new technologies?
+
+99. How do you maintain work-life balance?
+
+100. What do you like to do outside of work?
+
+---
+
+# **🎯 FINAL TIPS**
+
+## **How to Use This Guide**
+
+1. **Don't try to memorize everything** - Focus on understanding concepts
+2. **Practice explaining out loud** - Record yourself answering
+3. **Write code for every topic** - Theory alone isn't enough
+4. **Build projects** - Apply what you learn
+5. **Do mock interviews** - Practice with friends or platforms
+
+## **Common Mistakes to Avoid**
+
+❌ **Memorizing answers** - Interviewers can tell
+❌ **Not asking clarifying questions** - Shows lack of engagement
+❌ **Ignoring edge cases** - Always consider boundaries
+❌ **Rushing to code** - Think through the problem first
+❌ **Not admitting what you don't know** - Honesty is better than bluffing
+
+## **Success Checklist**
+
+- [ ] Can explain concepts in simple terms
+- [ ] Have written code for each topic
+- [ ] Built at least 3 full-stack projects
+- [ ] Practiced answering out loud
+- [ ] Prepared questions to ask interviewers
+- [ ] Researched the company beforehand
+- [ ] Have a clean, updated resume
+- [ ] Portfolio/GitHub is up to date
+
+---
+
+**Good luck with your interviews! Remember, confidence comes from preparation. You've got this! 💪**
+
+*Want me to drill you on any specific section? Just ask!*
